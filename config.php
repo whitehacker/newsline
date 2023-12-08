@@ -1,8 +1,8 @@
 <?php
     $host = "localhost";
-    $user = "lineuser";
-    $pass = "1234@098";
-    $db_name = "newsline";
+    $user = "Database_User";
+    $pass = "Your_PASS";
+    $db_name = "Database";
 
     $conn = new mysqli($host, $user, $pass, $db_name);
 
